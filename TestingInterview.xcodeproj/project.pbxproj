@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4A381674244CD17D000CB957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A381673244CD17D000CB957 /* AppDelegate.swift */; };
-		4A381676244CD17D000CB957 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A381675244CD17D000CB957 /* SceneDelegate.swift */; };
-		4A381678244CD17D000CB957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A381677244CD17D000CB957 /* ViewController.swift */; };
-		4A38167B244CD17D000CB957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A381679244CD17D000CB957 /* Main.storyboard */; };
+		4A381678244CD17D000CB957 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A381677244CD17D000CB957 /* MainViewController.swift */; };
 		4A38167D244CD17E000CB957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A38167C244CD17E000CB957 /* Assets.xcassets */; };
 		4A381680244CD17E000CB957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A38167E244CD17E000CB957 /* LaunchScreen.storyboard */; };
 		4A38168B244CD17E000CB957 /* TestingInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A38168A244CD17E000CB957 /* TestingInterviewTests.swift */; };
 		4A381696244CD17E000CB957 /* TestingInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A381695244CD17E000CB957 /* TestingInterviewUITests.swift */; };
+		4A3816A6244CD5A6000CB957 /* MainVCStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3816A5244CD5A6000CB957 /* MainVCStrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +36,7 @@
 /* Begin PBXFileReference section */
 		4A381670244CD17D000CB957 /* TestingInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A381673244CD17D000CB957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A381675244CD17D000CB957 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A381677244CD17D000CB957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A38167A244CD17D000CB957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A381677244CD17D000CB957 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4A38167C244CD17E000CB957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A38167F244CD17E000CB957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A381681244CD17E000CB957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		4A381691244CD17E000CB957 /* TestingInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A381695244CD17E000CB957 /* TestingInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingInterviewUITests.swift; sourceTree = "<group>"; };
 		4A381697244CD17E000CB957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3816A5244CD5A6000CB957 /* MainVCStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				4A381673244CD17D000CB957 /* AppDelegate.swift */,
-				4A381675244CD17D000CB957 /* SceneDelegate.swift */,
-				4A381677244CD17D000CB957 /* ViewController.swift */,
-				4A381679244CD17D000CB957 /* Main.storyboard */,
+				4A381677244CD17D000CB957 /* MainViewController.swift */,
+				4A3816A5244CD5A6000CB957 /* MainVCStrings.swift */,
 				4A38167C244CD17E000CB957 /* Assets.xcassets */,
 				4A38167E244CD17E000CB957 /* LaunchScreen.storyboard */,
 				4A381681244CD17E000CB957 /* Info.plist */,
@@ -234,7 +231,6 @@
 			files = (
 				4A381680244CD17E000CB957 /* LaunchScreen.storyboard in Resources */,
 				4A38167D244CD17E000CB957 /* Assets.xcassets in Resources */,
-				4A38167B244CD17D000CB957 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A381678244CD17D000CB957 /* ViewController.swift in Sources */,
+				4A381678244CD17D000CB957 /* MainViewController.swift in Sources */,
+				4A3816A6244CD5A6000CB957 /* MainVCStrings.swift in Sources */,
 				4A381674244CD17D000CB957 /* AppDelegate.swift in Sources */,
-				4A381676244CD17D000CB957 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4A381679244CD17D000CB957 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A38167A244CD17D000CB957 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A38167E244CD17E000CB957 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gregorio.daymein.TestingInterview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gregorio.daymein.TestingInterview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
