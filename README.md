@@ -3,7 +3,7 @@
 ### How to complete this task ###
 Complete the following steps:
 
-1. Fork this project to your github
+1. Download or Fork this project to your github
 2. Add a second textField below the first with 20pt space between.
 3. Write the anagram function (details below)
 4. Write unit tests to validate the code
