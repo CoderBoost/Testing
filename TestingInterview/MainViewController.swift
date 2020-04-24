@@ -13,7 +13,7 @@ class MainViewController: UIViewController {
     var resultLabel: UILabel = {
         let lbl = UILabel()
         lbl.font = UIFont.systemFont(ofSize: 22, weight: .semibold)
-        lbl.text = "This is ok"
+        lbl.text = "Result Label"
         lbl.textAlignment = .center
         return lbl
     }()

@@ -17,6 +17,4 @@ class TestingInterviewTests: XCTestCase {
     override func tearDownWithError() throws {
     }
 
-    
-
 }
